@@ -5,6 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soy la pagina de libros</title>
+
+    <!-- La etiqueta style nos deja escribir en el head del documento-->
+    <style> 
+        /*  Selector { 
+        regla: valor}
+         */
+        
+         article {text-align: center;} /* todo lo que este dentro de articulo va centrado en esta orden*/
+
+         img { width: 250px;} /* Todas las imagenes van a tener 250px*/
+
+         #primer {width: 500px;} /* Para hacer referencia aun "id" de una etiqueta se usa "#" */ /* esto anula el estilo seleccionado y lo modifica unicamente para este id*/
+
+         .primera {width: 400px;} /*para hacer referencia a una "class" se usa el "." */ /* Estodo anula la seleccion dentro del articulo y la modifica a esta clase (la clase se usa varias veces tambien)*/
+
+
+
+    </style>
 </head>
 <body>
     <header> 
@@ -34,14 +52,16 @@
             <article>
 
                 <figure>
+                    <!-- El Atributo CLASS asigna una clase a un elemento que se puede compartir con otros y se usa para identificarlos desde el css-->
+                     
                     <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laudantium atque nulla quidem aliquid! Unde quasi similique, odit commodi at soluta, numquam molestiae, voluptas eaque dignissimos maxime quis culpa illo!</P>
-                    <img src="../assets/imagenes/Nikola Libro.jpeg" alt="Autobiografia" width="250px">
+                    <img src="../assets/imagenes/Nikola Libro.jpeg" alt="Autobiografia" id="primer" class="primera">
                     <figcaption>Libro 1: Autobiografia de Nikola Tesla</figcaption> <!-- Descripcion de la foto -->
                 </figure>
     
                 <figure>
                     <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et laudantium atque nulla quidem aliquid! Unde quasi similique, odit commodi at soluta, numquam molestiae, voluptas eaque dignissimos maxime quis culpa illo!</P>
-                    <img src="../assets/imagenes/Libro2mividamiinvestigacion.jpeg" alt="vida e investigacion" width="250px">
+                    <img src="../assets/imagenes/Libro2mividamiinvestigacion.jpeg" alt="vida e investigacion" class="primera">
                     <figcaption>Libro 2: Mi vida, mi investigacion</figcaption> <!-- Descripcion de la foto -->
                 </figure>
     
