@@ -56,7 +56,10 @@ input{ /* caja de texto*/
     padding: 15px; /* da relleno para adentro */
     color: white; /*color de la letra de la caja de texto*/
     /* cubic heizer curve */
-    transition: border .3s ease-in-out;
+    transition: border .3s ease-in-out; 
+    /*transcicion, luego el nombre de la propiedad. en este caso es el border */ 
+    /* 0.3s es el tiempo*/
+    /*ease in out (con suavidad al principio y al final)*/
 }
 
 input:hover{
