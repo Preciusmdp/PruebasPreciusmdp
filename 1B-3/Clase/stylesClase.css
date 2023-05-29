@@ -119,7 +119,7 @@ p>span{ /* <span> hijos directos de <p>*/
 p>span:hover{ /*<span> hijos directos de <p> */ /* hover es posicionarte con el mouse y realizar un cambio. En este caso  agranda un poco la letra*/
     text-decoration: underline; /*subraya el texto al posicionar el mouse*/
     color: white; /*cambia el texto a blanco*/
-    cursor: text; /* cambia el cursor*/
+    cursor: text; /* cambia el cursor como si fueras a escribir*/
 }
 
 
