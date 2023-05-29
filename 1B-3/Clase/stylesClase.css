@@ -49,7 +49,7 @@ label{
 input{ /* caja de texto*/
     width: 100%; /**/
     background-color: #121212;
-    border: 1px solid #a7a7a7;
+    border: 1px solid #a7a7a7; /*borde de un pixel en negro*/
     margin-top: 10px; /*que se separe 10 pixeles de el margen de arriba*/
     height: 30px; /* ancho de la caja del formulario*/
     border-radius: 2px; /*borde redondeado muy sutil*/
@@ -86,19 +86,19 @@ input:hover{
 }
 
 hr{
-    margin: 20px;
-    border-color: #a7a7a7;
+    margin: 20px; /*separacion de los margenes*/
+    border-color: #a7a7a7; /*color del borde*/
 }
 
-span{
+span{ /*aplica a todos los span*/ 
     text-decoration: underline; /*subraya el texto*/
     cursor: pointer; /*cambia el cursor a un dedo*/
-    display: inline-block;
+    display: inline-block; /*te seguis comportando como linea pero tenes propiedades de un bloque*/
     width: 100%;
 }
 
 /* los ":" son un pseudo selector de una etiqueta*/
-span:hover{ /* hover es posicionarte con el mouse y realizar un cambio. En este caso se cambia el color*/
+span:hover{ /* hover es posicionarte con el mouse y realizar un cambio. En este caso se cambia el color*/ 
     color: #1ed760;
 }
 
@@ -108,15 +108,15 @@ p{
 }
 
 p>span{ /* <span> hijos directos de <p>*/
-    text-decoration: none;
+    text-decoration: none; 
     color: white;
-    display: inline;
+    display: inline; /*display en linea*/
 }
 
 p>span:hover{ /*<span> hijos directos de <p> */ /* hover es posicionarte con el mouse y realizar un cambio. En este caso  agranda un poco la letra*/
-    text-decoration: underline;
-    color: white;
-    cursor: text;
+    text-decoration: underline; /*subraya el texto al posicionar el mouse*/
+    color: white; /*cambia el texto a blanco*/
+    cursor: text; /* cambia el cursor*/
 }
 
 
