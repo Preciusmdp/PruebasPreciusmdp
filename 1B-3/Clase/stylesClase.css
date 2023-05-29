@@ -1,100 +1,119 @@
+/* RESETEO DE CSS */
 *{
-    /* reset css */
-    box-sizing: border-box;
+    box-sizing: border-box; /*NO DEJA QUE LAS COSAS SE CHOQUEN Y SE SUPERPONGAN*/ 
     margin: 0;
     padding: 0;
 }
-/* NIDADES DE PANTALLA
 
-vh ---- viewport height
-vw ----- viewport width
+
+/* UNIDADES DE PANTALLA
+        vh ---- viewport height (altura)
+        vw ----- viewport width (ancho)
 */
+
 html{
- text-align: center;   
- background: linear-gradient(rgba(47, 45, 45, 0.843) 0%, rgb(0, 0, 0) 70%);
+ text-align: center; /*CENTRA EL TEXTO*/
+
+ background: linear-gradient(rgba(47, 45, 45, 0.843) 0%, rgb(0, 0, 0) 70%); 
+ /* fondo de todo el documento de html en degrade, en este caso va de un color claro a uno mas oscuro */
+
  min-height: 100vh;
 }
 
 div {
-    background-color: black;
-    color: white;
-    width: 95%;
-    max-width: 450px;
-    margin: auto;
-    margin-top: 50px;
+    background-color: black; /*COLOR DE FONDO*/
+    color: white; /*COLOR DE TEXTO*/
+    width: 95%; /* MARGENES DEL COSTADO*/ /* Se usa porcentaje para que sea relativo*/
+    max-width: 450px; 
+    margin: auto; /*segun como acomoda la pagina*/
+    margin-top: 50px; /* MARGEN DE ARRIBA*/
     padding: 70px;
     /* FALLBACK DE FUENTES
     fallback --- si lo primero no anda, segui con lo segundo
-    */
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    */ /*la familia de fuentes, agrupa fuentes similares en aspecto*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 }
+
 form{
     width: 100%;
-    text-align: left;
+    text-align: left; /* alineacion de texto a la izquierda*/
 }
+
 label{
-    margin-right: auto;
-    min-width: 100%;
+    margin-right: auto; /* margen derecho*/
+    min-width: 100%; 
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 700; /* grosor de la letra*/
 }
-input{
-    width: 100%;
+
+input{ /* caja de texto*/
+    width: 100%; /**/
     background-color: #121212;
     border: 1px solid #a7a7a7;
-    margin-top: 10px;
-    height: 30px;
-    border-radius: 2px;
-    padding: 15px;
-    color: white;
+    margin-top: 10px; /*que se separe 10 pixeles de el margen de arriba*/
+    height: 30px; /* ancho de la caja del formulario*/
+    border-radius: 2px; /*borde redondeado muy sutil*/
+    padding: 15px; /* da relleno para adentro */
+    color: white; /*color de la letra de la caja de texto*/
     /* cubic heizer curve */
     transition: border .3s ease-in-out;
 }
+
 input:hover{
     border: 1px solid #ffffff;
 }
 
-.logInButton{
-    background-color: #1ed760;
-    width: 100%;
+.logInButton{ /*desde la class (.) le damos estilo a este boton*/
+
+    background-color: #1ed760; /*color de fondo en hexadecimal*/
+    width: 100%; 
     color: black;
-    font-weight: bold;
+    font-weight: bold; /*fuente en negrita*/
     padding: 10px;
-    border-radius: 25px;
-    margin-bottom: 15px;
-    border: none;
+    border-radius: 25px; /* borde redondeado*/
+    margin-bottom: 15px; /*separacion del boton del siguiente contenido, seria el has olvidado contraseña*/
+    border: none; /*elimina el borde del boton*/
     cursor: pointer;
 }
-.logInButton:hover{
-    transform: scale(1.05);
+
+.logInButton:hover{  /* hover es posicionarte con el mouse y realizar un cambio. En este caso  agranda un poco la letra*/
+    transform: scale(1.05); /*escala la imagen un 0.05 %*/
+    /*lo que esta en parentesis es una FUNCION matematica.*/
 }
-.center {
+
+.center { /*clase*/ /* has olvidado tu contraseña. no tienen cuenta registrate. estan dentro de esta clase que alinea el texto al centro */
     text-align: center;
 }
+
 hr{
     margin: 20px;
     border-color: #a7a7a7;
 }
 
 span{
-    text-decoration: underline;
-    cursor: pointer;
+    text-decoration: underline; /*subraya el texto*/
+    cursor: pointer; /*cambia el cursor a un dedo*/
     display: inline-block;
     width: 100%;
 }
-span:hover{
+
+/* los ":" son un pseudo selector de una etiqueta*/
+span:hover{ /* hover es posicionarte con el mouse y realizar un cambio. En este caso se cambia el color*/
     color: #1ed760;
 }
+
 p{
-    margin-top: 40px;
+    margin-top: 40px; /*seoara el parrafo 40 pixeles del lado superior*/
     color: #a7a7a7;
 }
-p>span{
+
+p>span{ /* <span> hijos directos de <p>*/
     text-decoration: none;
     color: white;
     display: inline;
 }
-p>span:hover{
+
+p>span:hover{ /*<span> hijos directos de <p> */ /* hover es posicionarte con el mouse y realizar un cambio. En este caso  agranda un poco la letra*/
     text-decoration: underline;
     color: white;
     cursor: text;

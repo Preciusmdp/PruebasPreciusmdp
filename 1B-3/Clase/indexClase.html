@@ -1,46 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
+    
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./stylesClase.css">
-        <title>Spotify</title>
+
+        <link rel="stylesheet" href="./stylesClase.css"> <!-- enlace a css-->
+
+        <title>Spotify</title> <!-- simil pagina de spotify-->
     </head>
+   
     <body>
+
         <div>
             <br>
-            <form>
-                <label for="email">
+
+            <form> <!-- Etiqueta para formulario-->
+                <!-- para hacer varios campos al mismo tiempo se hace: 
+                    
+                    Ejemplo : 
+                    
+                    label*2>input
+                
+                        <label for="">
+                            <input type="text">
+                        </label>
+                        
+                        <label for="">
+                            <input type="text">
+                        </label> 
+                    
+                    y se escribe dos veces el codigo con las eiquetas de cierre incluidas
+                -->
+
+                <label for="email"> <!-- label te dice que tenes que escribir, y ademas le dice al formulario que esta es la etiqueta para el email, por ej-->
                     Email o nombre de usuario
                     <br>
                     <input type="text" name="email" id="email"
-                    placeholder="Email o nombre de usuario">
+                    placeholder="Email o nombre de usuario"> <!-- informacion en caja contenedora. (desaparece al empezar a escribir)-->
                     <br>
                 </label>
+               
                 <label for="pass">
                     <br>
                     Contraseña
                     <br>
                     <input type="password" name="pass" id="pass"
-                    placeholder="Contraseña">
+                    placeholder="Contraseña"> <!-- informacion en caja contenedora. (desaparece al empezar a escribir)-->
                     <br>
                     <br>
                 </label>
-                <button type="submit"
-                class="logInButton">
+                
+                <button type="submit" class="logInButton"> <!-- boton que envia -->
                     Iniciar sesión
                 </button>
+               
                 <br>
-                <span class="center">
+               
+                <span class="center"> <!-- etiqueta de linea-->
                     ¿Has olvidado tu contraseña?
                 </span>
-                <!-- etiqueta de regla horizontal -->
-                <hr >
+                <hr > <!-- etiqueta de regla horizontal/ linea horizontal -->
                 <p class="center">¿No tienes cuenta?
                     <span>Regístrate en Spotify</span>
                 </p>
+
             </form>
+
         </div>
+
     </body>
+
 </html>
