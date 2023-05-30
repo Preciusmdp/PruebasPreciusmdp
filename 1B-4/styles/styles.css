@@ -5,9 +5,9 @@
 
 *, *::before, *::after{
     /* reset css */
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box; /* Unificar todas la cajas contenedoras*/
+    margin: 0; /*Espacio exterior*/
+    padding: 0; /*Espacio interior*/
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -32,12 +32,16 @@ usamos este elemento para definir variables de CSS
 body{
     /* con CSS puedo poner poner imagens de fondo locales (o sea, que están en una carpeta del proyecto) o directamente desde una URL */
     background-image: url('../assets/background.jpg');
+    
     /* la propiedad OPACITY marca la opacidad de un elemento */
-    /* opacity: .4; */
-    min-height: 100vh;
-    min-width: 100vw;
-    /* el contenido que se desborda de su caja se llama OVERFLOW */
+    /* opacity: .4; */ /* ahora esta deshabilitada*/ /*todo lo que este dentro del body se opaca 0.4*/
+
+    min-height: 100vh; /* min-height es altura minima de alto. 100vh 100 corresponde al total del vh (alto de pantalla)*/
+    min-width: 100vw; /* min-width es altura minima de ancho. 100vw 100 corresponde al total de vw (ancho de pantalla)*/
+    
+    /* el contenido que se desborda de su caja se llama OVERFLOW */ /* es cuando se pone una barra de desplazamiento abajo*/
     overflow-x: hidden;
+
     /* POSITION es un atributo que nos ayuda a indicar como se ubica un elemento en el flujo del documento,
     ABSOLUTE saca a un elemento del flujo normal
     y RELATIVE lo pone en el flujo normal */
@@ -76,7 +80,7 @@ a{
 }
 a:hover{
     color: var(--azulFocus);
-}
+} 
 main{
     text-align: center;
 }
