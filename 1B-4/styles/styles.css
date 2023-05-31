@@ -19,7 +19,7 @@ usamos este elemento para definir variables de CSS
 */
 :root{
     background-color: black;
-    /* as variables se marcan con un '--' inicial */
+    /* las variables se marcan con un '--' inicial */
     --negro : rgb(0, 0, 0);  
     --gris : rgba(255, 255, 255, .5);
     --violetaClaro : rgba(194, 153, 232, 0.7);
@@ -90,7 +90,7 @@ main{
 .formulario{ /*es hijo de main pk (<main> <form> </main>)*/
     margin: auto; /*centra el form al medio de la pantalla que ocupa main (si hubiera un aside no se tendria en cuenta)*/
     margin-top: 100px; /*separa 100px de la cabecera*/
-    background-color: var(--violetaClaro); /*color de fondo*/
+    background-color: var(--violetaClaro); /*color de fondo definido desde la variable (:root)*/
     width: 70%; /*ocupa el 70% de su padre (main)*/
     height: 60vh;
     padding: 50px 0; /* aplica 50 px arriba y abajo y cero a los costados. (funciona como las agujas del reloj)*/
