@@ -20,7 +20,7 @@ usamos este elemento para definir variables de CSS
 :root{
     background-color: black;
     /* as variables se marcan con un '--' inicial */
-    --negro : rgb(0, 0, 0);
+    --negro : rgb(0, 0, 0);  
     --gris : rgba(255, 255, 255, .5);
     --violetaClaro : rgba(194, 153, 232, 0.7);
     --violeta : rgb(60, 6, 110);
@@ -92,21 +92,21 @@ main{
     width: 70%; /*ocupa el 70% de su padre (main)*/
     height: 60vh;
     padding: 50px 0; /* aplica 50 px arriba y abajo y cero a los costados. (funciona como las agujas del reloj)*/
-    font-weight: bold;
+    font-weight: bold; /*NEGRITA*/
     color: black;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 /* para afectar a más de un selector
 con el mismo bloque de reglas
 los concatenamos con una coma */
-input, select{
+input, select{ /*ESTO selecciona a todos los input y todos los select*/ 
     margin: 5px 0 25px; /*aplica 5 arriba 0 a los costados y 25 abajo*/
-    width: 50%;
-    height: 2rem;
-    padding: .5rem;
-    border-radius: 5px;
+    width: 50%; /*50% del largo de la caja del formulario*/
+    height: 2rem; /*32 px de ancho */
+    padding: .5rem; /*separa lo que esta en el place holder del borde de la caja contenedora*/
+    border-radius: 5px; /*redondea*/
     outline: none;
-    border: 2px solid ;
+    border: 2px solid ; /* borde solido de 2px*/
 }
 
 select{
@@ -114,7 +114,7 @@ select{
 }
 
 input:focus, select:focus{
-    border: 2px solid var(--azulFocus);
+    border: 2px solid var(--azulFocus); 
 }
 
 /* PSEUDOCLASE 
@@ -124,8 +124,8 @@ input:focus, select:focus{
 button{
     margin-top: 25px; /*separa 25 px el boton de elemnto de arriba*/
     background-color: var(--amarillo);
-    border: 1px solid var(--negro);
-    padding: .5rem 1.5rem;
+    border: 1px solid var(--negro); /*borde solido*/
+    padding: .5rem 1.5rem; /*espacio que ocupa la caja del boton*/
     border-radius: 35px;
     /* la propiedad TRANSITION nos deja elegir otras propiedas que sabemos que van a cambiar, y decidir en cuanto tiempo y de que forma cambian */
     transition: all .3s ease-in-out;
