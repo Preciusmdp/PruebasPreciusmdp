@@ -112,7 +112,7 @@ input, select{ /*ESTO selecciona a todos los input y todos los select*/
 }
 
 select{
-    height: 3rem;
+    height: 3rem; /*ancho*/
 }
 
 input:focus, select:focus{
