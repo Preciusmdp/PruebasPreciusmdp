@@ -1,29 +1,32 @@
-*{
+*{ /*reseteo de css*/
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* */
 .flex{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+    display: flex; /*como se va a mostrar ese bloque*/ /*flex es caja flexible*/
+    flex-wrap: wrap; /*se acomoda segun el espacio*/ /*cuando agrando o achivo la pagina se acomodan las cosas */
+    gap: 1rem; /*espacio entre cada item*/
     margin: auto;
-    margin-top: 10vh;
-    width: 70%;
+    margin-top: 10vh; /*espacio arriba*/
+    width: 70%; /*porcentaje de ocupacion*/
 }
 
 
 .flex-item{
-    background-color: blueviolet;
+    background-color: blueviolet; 
     width: 10rem;
     height: 10rem;
-    border-radius: 50%;
+    border-radius: 50%; /*al darle borde al 50 se vuelve un circulo*/
     color: white;
-    font-weight: bolder;
+    font-weight: bolder; 
     font-size: 2rem;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; 
+    justify-content: center; /*alinea el item en el medio*/
+    align-items: center; /*alinea el item al centro */
 }
+
+/*aspect-ratio: 1/1 */

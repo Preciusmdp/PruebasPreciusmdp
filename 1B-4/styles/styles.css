@@ -75,14 +75,20 @@ body{
     margin-left: 15px;
 }
 
+
+/* Corresponde al flex*/
 a{
     color: var(--negro);
     font-weight: bolder;
-    text-decoration: underline;
+    text-decoration: underline; /*le saca el subrayado*/
 }
 a:hover{
-    color: var(--azulFocus);
+    color: var(--azulFocus); /*cuando pasamos el mouse por arriba se cambia a azul*/ 
 } 
+
+
+
+
 main{
     text-align: center;
 }
