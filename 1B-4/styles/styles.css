@@ -8,7 +8,7 @@
     box-sizing: border-box; /* Unificar todas la cajas contenedoras*/
     margin: 0; /*Espacio exterior*/
     padding: 0; /*Espacio interior*/
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif; /*fuente*/
 }
 
 /* el PSEUDOELEMNTO RAÍZ representa
@@ -45,7 +45,7 @@ body{
     /* POSITION es un atributo que nos ayuda a indicar como se ubica un elemento en el flujo del documento,
     ABSOLUTE saca a un elemento del flujo normal
     y RELATIVE lo pone en el flujo normal */
-    position: absolute;
+    position: absolute; /*significa que no se va a mover aunque se muevan las cosas de adentro*/
     top: 0;
 }
 
@@ -85,13 +85,13 @@ main{
     text-align: center;
 }
 
-.formulario{
-    margin: auto;
-    margin-top: 100px;
-    background-color: var(--violetaClaro);
-    width: 70%;
+.formulario{ /*es hijo de main pk (<main> <form> </main>)*/
+    margin: auto; /*centra el form al medio de la pantalla que ocupa main (si hubiera un aside no se tendria en cuenta)*/
+    margin-top: 100px; /*separa 100px de la cabecera*/
+    background-color: var(--violetaClaro); /*color de fondo*/
+    width: 70%; /*ocupa el 70% de su padre (main)*/
     height: 60vh;
-    padding: 50px 0;
+    padding: 50px 0; /* aplica 50 px arriba y abajo y cero a los costados. (funciona como las agujas del reloj)*/
     font-weight: bold;
     color: black;
     border-radius: 5px;
@@ -100,7 +100,7 @@ main{
 con el mismo bloque de reglas
 los concatenamos con una coma */
 input, select{
-    margin: 5px 0 25px;
+    margin: 5px 0 25px; /*aplica 5 arriba 0 a los costados y 25 abajo*/
     width: 50%;
     height: 2rem;
     padding: .5rem;
@@ -122,7 +122,7 @@ input:focus, select:focus{
 */
 
 button{
-    margin-top: 25px;
+    margin-top: 25px; /*separa 25 px el boton de elemnto de arriba*/
     background-color: var(--amarillo);
     border: 1px solid var(--negro);
     padding: .5rem 1.5rem;
@@ -144,12 +144,12 @@ button:hover{
     float: left;
 }
 
-.pie{
-    background-color: var(--amarillo);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 3rem;
-    text-align: center;
+.pie{ /*Clase del footer*/
+    background-color: var(--amarillo); 
+    position: absolute; 
+    bottom: 0; /*con esta propiedad y valor siempre va a estar al fondo de la pantalla*/
+    width: 100%; /*ocupa todo el largo horizontal de la pantalla*/
+    height: 3rem; /*ancho vertical*/
+    text-align: center; /*centra el texto*/
 }
 
