@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    background-color: bisque; /*fondo body*/
+    background-color: rgba(255, 228, 196, 0.87); /*fondo body*/
     width: auto; /*largo hotizontal automatico*/
 }
 
@@ -20,7 +20,17 @@ header{
 header h1{
     background-color: aquamarine;
     text-align: center;
-    padding: 25px; /*espacio entre el contenido y su caja*/
+    padding: 25px; /*espacio entre el contenido y su caja*/  
+    border: 3px groove black;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+header nav{
+    text-align: center; /*centra el texto*/
+    border: 6px double rgba(194, 175, 158, 0.459); 
+    border-radius: 25px;
+    background-color: rgb(102, 102, 161);
 }
 
 header nav ul li{
@@ -28,12 +38,12 @@ header nav ul li{
     position: relative;
     background-color: rgb(201, 179, 138); /*colon del fondo de la caja*/
     padding: 10px; /*espacio entre el contenido y su caja*/
-   
     margin: 3px; /*separacion entre una caja y otra*/
     width: auto; /*adapta el largo horizontal automaticamente. (si los quiero todos iguales usar porcentaje)*/
     height: auto;
     border-radius: 50px; /*redondeo de la caja contenedora*/
 }
+
 header nav ul li a{
     color: rgb(22, 18, 26); 
     text-decoration: none; /*le saca el subrayado al enlace*/
