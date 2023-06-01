@@ -18,7 +18,7 @@ img {
     border: 3px black solid;
     margin: 25px; /* margenes externos de la caja hacia le exterios*/
     padding: 10px; /* padding  es el margen interno hacias la caja*/
-    padding-bottom: 50px; /* este es el lado de abajo le añade espacio hacia abajo*/
+    padding-bottom: 50px; /* este es el lado de abajo le añade espacio hacia abajo */
 }
 
 p {
