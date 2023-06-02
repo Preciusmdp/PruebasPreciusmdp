@@ -6,19 +6,23 @@ padding: 0;
 
 html{
     background-color: rgba(136, 136, 28, 0.473); /*fondo html*/
+    
 }
 
 body{
     background-color: rgba(255, 228, 196, 0.87); /*fondo body*/
     width: auto; /*largo hotizontal automatico*/
+    height: auto; /*Largo vertical automatico*/
+    background-image: linear-gradient(rgba(255, 255, 0, 0.561) , rgba(0, 0, 255, 0.43) , rgba(255, 0, 0, 0.416));
 }
 
 header{ 
     width: auto; /*largo hotizontal automatico*/
+    padding-bottom: 25px;
 }
 
 header h1{
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0.479);
     text-align: center;
     padding: 25px; /*espacio entre el contenido y su caja*/  
     border: 3px groove black;
@@ -52,6 +56,10 @@ header nav ul li a{
 
 main{
     /*width: 70%;*/
+}
+.TitulosGenerales{
+    text-align: center;
+    padding-bottom: 15px;
 }
 
 footer{
