@@ -62,6 +62,13 @@ main{
     padding-bottom: 15px;
 }
 
+.PGenerales{
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+
 footer{
     /*width: 10%;*/
     background-color: burlywood;
