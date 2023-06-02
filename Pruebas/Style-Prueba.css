@@ -110,3 +110,10 @@ footer{
     padding-top: 20px;
     padding-bottom: 0
 }
+.Logo{
+    width: 120px;
+    height: 100px;
+   position: absolute;
+   top:10px; 
+   left: 10px;
+}
