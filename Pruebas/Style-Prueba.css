@@ -36,14 +36,12 @@ header{
     padding-bottom: 25px;
 }
 
-#Pano {
-    background-size: cover;
+#pano {
+  
+
 }
 
 header h1{
-   /*background-color: rgba(127, 255, 212, 0.479);
-    background-image: url(./Imagenes/banner3.jpg);
-    background-size: cover;*/
     /*background: linear-gradient(90deg, #22c1c3, #fdbb2d); */
     /*background: #03001e;  /* fallback for old browsers */
     /*background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
@@ -100,9 +98,9 @@ main{
 
     display: inline-block; /* en una linea en bloque*/
     position: relative;
-    background-color: rgb(137, 146, 55); /*colon del fondo de la caja*/
+    background-color: rgba(238, 146, 71, 0.466); /*colon del fondo de la caja*/
     padding: 10px; /*espacio entre el contenido y su caja*/
-    margin: 3px; /*separacion entre una caja y otra*/
+    margin-top: 40px; /*separacion entre una caja y otra*/
     width: auto; /*adapta el largo horizontal automaticamente. (si los quiero todos iguales usar porcentaje)*/
     height: auto;
     border-radius: 20px; /*redondeo de la caja contenedora*/
@@ -115,7 +113,8 @@ main{
     margin-right: 20%;
     margin-top: 10px;
     margin-bottom: 15px;
-    border: 2px solid ;
+    border: 5px double ;
+    border-radius: 12px;
 }
 section{
     text-align: center;
@@ -129,11 +128,14 @@ footer{
     padding-top: 20px;
     padding-bottom: 0
 }
-.Logo{
-    width: 15%;
-    height: 104px;
-   position: absolute;
-   top:0px; 
-   left: 0px;
 
+main div section ul li a{
+    color: rgb(12, 13, 14);
+    font-style: oblique;
+    background: linear-gradient(90deg, #d46be9, #2dfdbf);
+    text-decoration: none;
+    border: 3px solid rgb(43, 41, 42);
+    border-radius: 20px;
+    padding: 3px;
+    
 }
