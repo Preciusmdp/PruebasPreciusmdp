@@ -90,7 +90,6 @@ main{
     /*width: 70%;*/
     padding-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
-    
 }
 .TitulosGenerales{
     text-align: center;
@@ -120,14 +119,8 @@ section{
     text-align: center;
 }
 
-footer{
-    /*width: 10%;*/
-    background-color: burlywood;
-    text-align: center;
-    position: relative;
-    padding-top: 20px;
-    padding-bottom: 0
-}
+
+
 
 main div section ul li a{
     color: rgb(12, 13, 14);
@@ -137,5 +130,13 @@ main div section ul li a{
     border: 3px solid rgb(43, 41, 42);
     border-radius: 20px;
     padding: 3px;
-    
+}
+
+footer{
+    /*width: 10%;*/
+    background-color: burlywood;
+    text-align: center;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 0;
 }
