@@ -9,20 +9,26 @@ font-family: 'Pacifico', cursive;
 */
 *{
 box-sizing: border-box;
-margin: 0;
+margin: 0; 
 padding: 0;
 }
 
 html{
-    background-color: rgba(136, 136, 28, 0.473); /*fondo html*/
+    background-color: rgba(140, 233, 245, 0.356); /*fondo html*/
     
 }
 
 body{
-    background-color: rgba(255, 228, 196, 0.87); /*fondo body*/
+    /*background-color: rgba(255, 228, 196, 0.87); /*fondo body*/
     width: auto; /*largo hotizontal automatico*/
     height: auto; /*Largo vertical automatico*/
-    background-image: linear-gradient(rgba(255, 255, 0, 0.561) , rgba(0, 255, 8, 0.43) , rgba(255, 0, 0, 0.416));
+    background-image: url(./Imagenes/);
+    
+    /*background: #CC95C0;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*background-image: linear-gradient(rgba(255, 255, 0, 0.561) , rgba(0, 255, 8, 0.43) , rgba(255, 0, 0, 0.416));*/
 }
 
 header{ 
@@ -30,41 +36,52 @@ header{
     padding-bottom: 25px;
 }
 
+#pano {
+  
+
+}
+
 header h1{
-   /* background-color: rgba(127, 255, 212, 0.479);*/
-    background-image: url(./Imagenes/faro.jpg);
+    /*background: linear-gradient(90deg, #22c1c3, #fdbb2d); */
+    /*background: #03001e;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); */
+
+    background: #c78ea1;  /* fallback for old browsers */
+    background: linear-gradient(to right, #c2c50f, #afe0d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 
     text-align: center;
     padding: 20px; /*espacio entre el contenido y su caja*/  
     border: 3px groove rgb(54, 53, 53);
-    color: rgba(2, 2, 10, 0.951);
+    color: rgba(17, 16, 17, 0.951);
     border-radius: 25px;
     margin-bottom: 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 45px;
 }
 
 header nav{
     text-align: center; /*centra el texto*/
-    border: 6px double rgba(194, 175, 158, 0.459); 
+    border: 6px double rgba(14, 13, 13, 0.459); 
     border-radius: 25px;
-    background-color: rgb(102, 102, 161);
+    background-color: rgb(247, 242, 243);
 }
 
 header nav ul li{
     display: inline-block; /* en una linea en bloque*/
     position: relative;
-    background-color: rgb(201, 179, 138); /*colon del fondo de la caja*/
+    background-color: rgb(231, 228, 223); /*colon del fondo de la caja*/
     padding: 10px; /*espacio entre el contenido y su caja*/
     margin: 3px; /*separacion entre una caja y otra*/
     width: auto; /*adapta el largo horizontal automaticamente. (si los quiero todos iguales usar porcentaje)*/
     height: auto;
     border-radius: 50px; /*redondeo de la caja contenedora*/
-    border: 2px solid rgb(242, 243, 238);
+    border: 2px solid rgb(29, 29, 28);
 }
 
 header nav ul li a{
-    color: rgb(22, 18, 26); 
+    color: rgb(13, 13, 14); 
     text-decoration: none; /*le saca el subrayado al enlace*/
 }
 
@@ -73,7 +90,6 @@ main{
     /*width: 70%;*/
     padding-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
-    
 }
 .TitulosGenerales{
     text-align: center;
@@ -81,9 +97,9 @@ main{
 
     display: inline-block; /* en una linea en bloque*/
     position: relative;
-    background-color: rgb(201, 138, 186); /*colon del fondo de la caja*/
+    background-color: rgba(238, 146, 71, 0.466); /*colon del fondo de la caja*/
     padding: 10px; /*espacio entre el contenido y su caja*/
-    margin: 3px; /*separacion entre una caja y otra*/
+    margin-top: 40px; /*separacion entre una caja y otra*/
     width: auto; /*adapta el largo horizontal automaticamente. (si los quiero todos iguales usar porcentaje)*/
     height: auto;
     border-radius: 20px; /*redondeo de la caja contenedora*/
@@ -96,10 +112,24 @@ main{
     margin-right: 20%;
     margin-top: 10px;
     margin-bottom: 15px;
-    border: 2px solid ;
+    border: 5px double ;
+    border-radius: 12px;
 }
 section{
     text-align: center;
+}
+
+
+
+
+main div section ul li a{
+    color: rgb(12, 13, 14);
+    font-style: oblique;
+    background: linear-gradient(90deg, #d46be9, #2dfdbf);
+    text-decoration: none;
+    border: 3px solid rgb(43, 41, 42);
+    border-radius: 20px;
+    padding: 3px;
 }
 
 footer{
@@ -107,6 +137,6 @@ footer{
     background-color: burlywood;
     text-align: center;
     position: relative;
-    padding-top: 20px;
-    padding-bottom: 0
+    padding-top: 30px;
+    padding-bottom: 0;
 }
