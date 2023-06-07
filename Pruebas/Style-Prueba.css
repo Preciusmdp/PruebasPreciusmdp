@@ -33,13 +33,9 @@ body{
 
 header{ 
     width: auto; /*largo hotizontal automatico*/
-    padding-bottom: 25px;
+    padding-bottom: 1px;
 }
 
-#pano {
-  
-
-}
 
 header h1{
     /*background: linear-gradient(90deg, #22c1c3, #fdbb2d); */
@@ -49,8 +45,7 @@ header h1{
 
     background: #c78ea1;  /* fallback for old browsers */
     background: linear-gradient(to right, #c2c50f, #afe0d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-
+ 
     text-align: center;
     padding: 20px; /*espacio entre el contenido y su caja*/  
     border: 3px groove rgb(54, 53, 53);
@@ -90,14 +85,19 @@ main{
     /*width: 70%;*/
     padding-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
+    background: url(./Imagenes/Lobo2.jpg);
+    background-size: cover;
 }
+
+
+
 .TitulosGenerales{
     text-align: center;
     padding-bottom: 15px;
-
+    opacity: 0.9;
     display: inline-block; /* en una linea en bloque*/
     position: relative;
-    background-color: rgba(238, 146, 71, 0.466); /*colon del fondo de la caja*/
+    background-color: rgba(204, 236, 18, 0.76); /*colon del fondo de la caja*/
     padding: 10px; /*espacio entre el contenido y su caja*/
     margin-top: 40px; /*separacion entre una caja y otra*/
     width: auto; /*adapta el largo horizontal automaticamente. (si los quiero todos iguales usar porcentaje)*/
@@ -106,6 +106,8 @@ main{
 }
 
 .PGenerales{
+    background-color: rgba(0, 0, 0, 0.699);
+    color: rgba(223, 223, 171, 0.719);
     text-align: center;
     max-width: auto;
     margin-left: 20%;
@@ -134,9 +136,15 @@ main div section ul li a{
 
 footer{
     /*width: 10%;*/
-    background-color: burlywood;
+    background-color: rgba(135, 219, 222, 0.61);
     text-align: center;
     position: relative;
     padding-top: 30px;
     padding-bottom: 0;
+    font-family: 'Arvo', serif;
+}
+
+footer a{
+    text-decoration: none;
+    color: blue;
 }
