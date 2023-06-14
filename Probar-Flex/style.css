@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* BARRA NUMERO 1 */
+.r1{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+}
+.r1 h2{
+    border: 2px dashed black;
+}
+.r1 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
