@@ -6,6 +6,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* BARRA NUMERO 1 */
@@ -35,9 +37,9 @@
 /* BARRA NUMERO 2 */
 .r2{
     display: flex;
-    flex-direction: row;
-    align-items: center; /* centra todo los textos del header verticalmente*/
-    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    flex-direction:column;
+    align-items:center; /* */
+    justify-content:end; /*alinea los elementos horizontalmente*/ /**/
     box-shadow: 10px 5px 5px pink;
     background-color: beige;
     margin-bottom: 20px;
