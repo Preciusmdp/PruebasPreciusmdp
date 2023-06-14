@@ -16,6 +16,7 @@
     justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
     box-shadow: 10px 5px 5px pink;
     background-color: beige;
+    margin-bottom: 20px;
 }
 .r1 h2{
     border: 2px dashed black;
@@ -27,4 +28,397 @@
     gap: 75px;
     border: 1px solid black;
 }
+
+
+
+
+/* BARRA NUMERO 2 */
+.r2{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+    margin-bottom: 20px;
+
+}
+.r2 h2{
+    border: 2px dashed black;
+}
+.r2 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
+
+
+/* BARRA NUMERO 3 */
+.r3{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+.r3 h2{
+    border: 2px dashed black;
+}
+.r3 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
+
+
+/* BARRA NUMERO 4 */
+.r4{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+.r4 h2{
+    border: 2px dashed black;
+}
+.r4 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
+
+
+/* BARRA NUMERO 5 */
+.r5{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+.r5 h2{
+    border: 2px dashed black;
+}
+.r5 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
+
+/* BARRA NUMERO 6 */
+.r6{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+.r6 h2{
+    border: 2px dashed black;
+}
+.r6 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
+
+/* BARRA NUMERO 7 */
+.r7{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+.r7 h2{
+    border: 2px dashed black;
+}
+.r7 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
+
+
+
+/* BARRA NUMERO 8 */
+.r8{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+    margin-bottom: 20px;
+
+}
+.r8 h2{
+    border: 2px dashed black;
+}
+.r8 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
+
+
+/* BARRA NUMERO 9 */
+.r9{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+.r9 h2{
+    border: 2px dashed black;
+}
+.r9 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
+
+
+/* BARRA NUMERO 10 */
+.r10{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+.r10 h2{
+    border: 2px dashed black;
+}
+.r10 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
+
+
+/* BARRA NUMERO 11 */
+.r11{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+.r11 h2{
+    border: 2px dashed black;
+}
+.r11 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
+
+/* BARRA NUMERO 12 */
+.r12{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+.r12 h2{
+    border: 2px dashed black;
+}
+.r12 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
+/* BARRA NUMERO 13 */
+.r13{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+.r13 h2{
+    border: 2px dashed black;
+}
+.r13 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
+
+
+
+/* BARRA NUMERO 14 */
+.r14{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+    margin-bottom: 20px;
+
+}
+.r14 h2{
+    border: 2px dashed black;
+}
+.r14 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
+
+
+/* BARRA NUMERO 15 */
+.r15{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+.r15 h2{
+    border: 2px dashed black;
+}
+.r15 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
+
+
+/* BARRA NUMERO 16 */
+.r16 {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+.r16 h2{
+    border: 2px dashed black;
+}
+.r16 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
+
+
+/* BARRA NUMERO 17 */
+.r17{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+.r17 h2{
+    border: 2px dashed black;
+}
+.r17 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
+
+/* BARRA NUMERO 18 */
+.r18{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* centra todo los textos del header verticalmente*/
+    justify-content: space-evenly; /*alinea los elementos horizontalmente*/ /**/
+    box-shadow: 10px 5px 5px pink;
+    background-color: beige;
+    margin-bottom: 20px;
+}
+.r18 h2{
+    border: 2px dashed black;
+}
+.r19 ul{
+    list-style: none; /*saca el punteado*/
+    display: flex; /*siempre se van para el costado*/
+    flex-direction: row;
+    gap: 75px;
+    border: 1px solid black;
+}
+
+
 
